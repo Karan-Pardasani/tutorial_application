@@ -1,8 +1,8 @@
 package com.example.TutorialApplication.model;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
-@Entity
-@Table(name = "tutorials")
+@Entity(name = "tutorial")
+@Table(name = "Tutorials")
 public class Tutorial {
 
     @Id
